@@ -26,9 +26,6 @@ test("isSunk function sinks ship", () => {
     ship3.hit();
     ship3.hit();
     expect(ship3.isSunk()).toBe(false);
-
-    
-
 })
 
 

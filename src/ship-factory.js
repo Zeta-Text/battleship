@@ -14,7 +14,7 @@ function ship(length) {
         hit: function() {
             this.timesHit++;
             return this.timesHit
-        }
+        },
     }
 
     return aShip;
